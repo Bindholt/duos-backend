@@ -27,12 +27,4 @@ public class Card {
     private Tribe tribe;
     @ManyToMany
     private List<Keyword> keywords;
-
-    private List<Card> getCardsByTierAndTribe(Long tierId, List<Long> tribeIds) {
-        List<Card> cards = new ArrayList<>();
-        for (Keyword keyword : this.keywords) {
-
-
-        }
-    }
 }
